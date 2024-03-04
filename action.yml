@@ -1,4 +1,4 @@
-name: 'Fast Webhook'
+name: 'Fast Webhook node20'
 description:
   'A simple, fast-compiling Javascript Github Action to send a POST request with
   a JSON body'
@@ -15,5 +15,5 @@ inputs:
     required: false
     default: '{}'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
